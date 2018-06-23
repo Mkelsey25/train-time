@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train Time!</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron text-center">
+                <h1>Train Schedule</h1>
+
+            </div>
+        </div>
+        <div class="row">
+            <h4>Current Train Schedule</h4>
+                <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Train Name</th>
+                            <th scope="col">Destination</th>
+                            <th scope="col">Frequency (mins)</th>
+                            <th scope="col">Next Arrival</th>
+                            <th scope="col">Minutes Away</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row"></th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row"></th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row"></th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                        </tbody>
+                      </table>
+        </div>
+        <div class="row">
+                <form>
+                        <div class="form-group">
+                            <h4>Add a Train</h4>
+                          <label for="train-name">Train Name</label>
+                          <input type="text" class="form-control" id="trainName" placeholder="Enter train name">
+                        </div>
+                        <div class="form-group">
+                          <label for="destination">Destination</label>
+                          <input type="text" class="form-control" id="destination" placeholder="Enter destination">
+                        </div>
+                        <div class="form-group">
+                            <label for="train-time">First Train Time</label>
+                            <input type="text" class="form-control" id="trainTime" placeholder="Enter time">
+                        </div>
+                        <div class="form-group">
+                            <label for="frequency">Frequency(mins)</label>
+                            <input type="text" class="form-control" id="frequency" placeholder="Enter frequency">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+        </div>
+    </div>
+    
+</body>
+</html>
